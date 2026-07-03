@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textTitluPreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gesturi Predefinite"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#085750"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.05"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="35dp"/>
+
+        <ImageView
+            android:id="@+id/imgDeschis"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gest_deschis"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Gest Complet Deschis" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDeschis"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Deschis"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_deschis"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <ImageView
+            android:id="@+id/imgInchis"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gest_inchis"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Gest Complet Inchis" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInchis"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Închis"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_inchis"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <ImageView
+            android:id="@+id/imgPace"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gest_pace"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Gest Sign of Peace" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPace"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Pace"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_pace"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <ImageView
+            android:id="@+id/imgOk"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gest_ok"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Gest OK" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOk"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_ok"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <ImageView
+            android:id="@+id/imgLike"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/gest_like"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Gest Like" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLike"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_like"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnHome"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Pagina Principală"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_gradient_home"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

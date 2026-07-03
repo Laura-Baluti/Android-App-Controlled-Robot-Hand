@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_light">#FFFFFF</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_dark">#333333</color>
+    <color name="pearl_aqua">#75C9C8</color>
+    <color name="periwinkle">#C0B9DD</color>
+    <color name="lavender">#DED9E2</color>
+</resources>
